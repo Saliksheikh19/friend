@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    overflow-y: scroll;
+    letter-spacing: inherit;
+}
+
+
+
+.container {
+    background: rgba(10, 10, 10, 0.925);
+    height: 44px;
+    z-index: 300;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+ 
+    
+}
+
+nav .navbar {
+    width: 1000px;
+    margin: 0 auto; 
+    padding: 4px ;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -sm-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -sm-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -sm-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    width: 100%;
+    
+}
+
+.navbar li a{
+    color: rgb(247, 245, 245);
+    text-decoration: none;
+    font-size: 11.5px;
+    opacity: 0.8;
+    transition: opacity 400ms;
+    text-align: center;
+}
+
+.unit{
+    background: #000;
+    padding-top: 6.5rem;
+    height: 37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    
+    
+}
+.head{
+    position: absolute;
+    top: 0;
+    padding: 3.7rem;
+
+}
+.mainh{
+    color: rgb(255, 255, 255);
+    font-size: 3.3rem;
+    padding-top: 1.3rem;
+    
+}
+.subh{
+    padding-bottom: 1rem;
+    color: rgb(255, 255, 255) ;
+    font-size: 1.8rem ;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    
+}
+.links a {
+    color: #2997ff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 3.5rem;
+    text-decoration: none;
+}
+.img1{
+    overflow: hidden;
+    padding-top: 115px;
+    
+   }
+.unit2{
+    height:553px;
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(31, 31, 31);
+    padding-top: 40px;
+    background-color:rgba(255, 255, 255, 0.61);
+}
+.mainh2{
+    font-size: 3.2rem;
+    padding-bottom: 10px;
+}
+.subh2{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+   font-weight: 400;
+   padding-bottom: 10px;
+}
+.links2 a{
+    color: #2997ff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 2rem;
+    text-decoration: none;
+
+
+}
+.img2{
+    padding-top: 120px;
+}
+ 
+.unit3{
+    background-image: url(hero_apple_watch_series_8__bjc1ok5mkjua_large-removebg-preview.png);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+
+}
+.watch{
+    color: white;
+    padding-left: 2rem;
+
+
+}
+.series{
+    color:rgb(236, 17, 53);
+    font-size: 0.7rem;
+    padding-left:  5rem;;
+    padding-top: 5px;
+}
+.health{color: white;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.watch img {
+    width: 35px;
+}
+
+.link3 a {
+    color: #2997ff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 20px ;
+    text-decoration: none;
+    justify-content:space-evenly ;
+   
+}
+.img3 img {
+   
+   padding-left: 30px;
+}
+.sec1{
+    height: 520px;
+    display: flex;
+    
+    align-items: center;
+    /* color: white; */
+    /* padding-top: 5px ;  */
+    color: rgb(31, 31, 31); 
+    
+    
+}
+.img4 {
+    display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url(promo_apple_watch_ultra__gnsqulvdc4a6_large-removebg.png);
+background-position: center;
+background-size: cover;
+height: 500px;
+width: 49.5%;
+margin-right: 5px;
+
+padding-top: 20px;
+}
+.img4 img {
+    height: 30px;
+    width: 30px;
+}
+.img5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(beyonce_promo__c8bt5lllfl2e_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 49.5%;
+    padding-top: 50px;
+    margin-left: 10px;
+    
+}
+
+.logo img{
+    height: 30px;
+}
+.links4 a{
+    
+        color: #2997ff;
+        font-size: 1rem;
+        font-weight: 500;
+      padding-right: 8px;
+        text-decoration: none;
+        justify-content:space-evenly ;
+        margin-bottom: 50px;
+}
+.watch2  {
+    font-size: 2rem;
+    color: #000;
+
+}
+.ul {
+    color: orangered;
+    font-weight: 700;
+    
+    padding-bottom: 5px;
+    padding-top: 2px;
+}
+
+.pr1 {
+    font-size: 1.2rem ;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+.logo {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+.pr2{
+    color: white;
+    padding-bottom: 8px;
+}
+.pr3{
+    color: white;
+    margin-bottom: 8px;
+}
+.links5 a {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sec2 {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.img6 {
+    display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url(bunny.jpg);
+background-position: center;
+background-size: cover;
+height: 500px;
+width: 49.5%;
+margin-right: 5px;
+
+padding-top: 50px;
+}
+
+.gif {
+    color: white;
+    padding-bottom: 6px;
+    font-size: 1.8rem;
+
+}
+.pr4{
+    color: white;
+    padding-bottom: 2px;
+    font-weight: 200;
+
+}
+.par4{
+    color: white;
+    padding-bottom: 10px;
+}
+.links6 a {
+    text-decoration: none;
+    color: white;
+    
+    
+
+}
+.img7 {
+    display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url(ipad.jpg);
+background-position: center;
+background-size: cover;
+height: 500px;
+width: 49.5%;
+margin-left: 8px;
+
+padding-top: 50px;
+}
+
+.ipad {
+    color: black;
+    padding-bottom: 6px;
+    font-size: 1.8rem;
+}
+.pr5 {
+    color: black;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+.links7 a {
+    text-decoration: none;
+    color:#2997ff;
+}
+.sec3 {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.img8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(airpod.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 49.5%;
+    height: 500px;
+    padding-top: 50px;
+   
+ 
+}
+.img9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(card.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 49.5%;
+    margin-left: 12px;
+    padding-top: 40px;
+    
+}
+.air {
+    color: white;
+    padding-bottom: 5px;
+}
+.re {
+    color: white;
+    padding-bottom: 8px;
+}
+.links8 a {
+    color: #2997ff;
+    text-decoration: none;
+    
+}
+.suu {
+    margin-left: 20px;
+}
+.img9 img { height: 30px;
+    
+}
+.img9 h1 {
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+.end {
+    background-color: #f8f7f7;
+    color: #6e6e73;
+    padding-top: 2rem;
+    /* padding: 0px auto; */
+    height: 755px;
+    padding-right: 6rem;
+    padding-left: 6rem;
+  
+}
+.para1 p {
+    padding-left: 50px;
+    line-height: 1;
+padding-bottom: 10px;
+font-size: 12px;
+font-weight: 400;
+padding-left: 4rem;
+padding-right: rem;
+}
+
+ .table{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #000; */
+    width: 100%;
+     font-size: 10px ;
+     font-weight: 400;
+     padding-top: 15px;
+     line-height: 2;
+     
+     
+     
+    }
+    .table table  {
+        width: 100%;
+        /* background-color:#2997ff ; */
+
+   
+}
+
+.end .table .title {
+    font-weight: 600;
+    color: #000;
+}
+
+.final {
+    padding-top: 15px;
+}
+.final p {
+    font-size: 10px;
+    margin-bottom: 5px;
+
+}
+.tab2 {
+    font-size: 10px;
+}
+.td1 {
+    padding-left: 20px;
+}
+.td2 {
+    padding-left: 230px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+   
+   .navbar {
+    
+   }
+
+    
+  }
+
+
+
+
+
+
